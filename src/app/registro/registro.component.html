@@ -1,0 +1,34 @@
+<div class="jumbotron">
+    <h2>Crear Usuario</h2>
+
+    <div>
+      <div>
+        <p class="lead">
+          <span>Nombre Completo: </span>
+          <input type="text" [(ngModel)]="user.nombre">
+        </p>
+      </div>
+      <p class="lead">
+        <span>Usuario: </span>
+        <input type="text" [(ngModel)]="user.name">
+      </p>
+    </div>
+    <div>
+      <p class="lead">
+        <span>Password: </span>
+        <input type="text" [(ngModel)]="user.pass">
+      </p>
+    </div>
+    <!--
+    <div>
+        <p class="lead">
+          <span>Usuarios registrados: {{usersSize}}</span>
+        </p>
+    </div>
+    -->
+    <div>
+      <button type="button" class="btn btn-primary" (click)="saveNewUser()">Guardar</button>
+      <a href="" [routerLink]="['/']">Login</a>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

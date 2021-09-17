@@ -1,0 +1,24 @@
+<!--<p>Aqui va login</p>-->
+<div class="jumbotron">
+    <h2>Inicio de Sesion</h2>
+
+    <div>
+      <p class="lead">
+        <span>Usuario: </span>
+        <input type="text" [(ngModel)]="user.name">
+      </p>
+    </div>
+    <div>
+      <p class="lead">
+        <span>Contraseña: </span>
+        <input type="text" [(ngModel)]="user.pass">
+      </p>
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary" (click)="searchUser()">Ingresar</button>
+      <a href="" [routerLink]="['/registro']">Nuevo Usuario</a>
+    </div>
+</div>
+<router-outlet></router-outlet>
+
+

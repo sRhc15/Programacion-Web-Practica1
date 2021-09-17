@@ -1,0 +1,59 @@
+
+@media screen and (min-width: 760px) {
+    .jumbotron {
+        margin-top: 40px;
+    }
+
+    .body-content {
+        padding:0px;
+    }
+}
+h2{
+    padding-top: 15px;
+    padding-left: 10px;
+    color:gold;
+    font-family:Tahoma;
+    font-size: 20px;
+}
+
+
+.lead {
+    text-align: left;
+    color:white;
+    font-family: Tahoma;
+    font-size: 20px;
+    display:inline-block !important;
+}
+.jumbotron p {
+    margin: 10px 15px 0px;
+    display: inline-block;
+}
+
+.jumbotron{
+    background:seagreen;
+}
+input[type=text],select{
+    width:90%;
+    padding:8px 20px;
+
+}
+
+button {
+    background-color:olive;
+    border:none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 15px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: midnightblue;
+    transition: background-color, 1.5s;
+}
+
