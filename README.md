@@ -10,6 +10,6 @@ En el cmd usar el comando `ng serve` para mostrar la pagina. Navegar a `http://l
 
 
 
-## Further help
+## Ayuda
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para obtener mas ayuda sobre Angular CLI use `ng help` o revise el [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
