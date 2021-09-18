@@ -1,26 +1,14 @@
 # Practica1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+Este proyecto fue hecho con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
-## Development server
+Esta aplicacion es una pagina web single-page compuesta de varios componentes de Angularjs. La pagina se compone de una pagina inicial con varios compuestos. Contiene un componente de login que tambien permite crear nuevos usuarios que se guardan por medio de arreglos (No se utilizo una base de datos para esta aplicacion). Se encuentran mas componentes una vez un usuario usa el login.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Correr la aplicacion
 
-## Code scaffolding
+En el cmd usar el comando `ng serve` para mostrar la pagina. Navegar a `http://localhost:4200/`. La aplicacion se actualizara automaticamente si se hace un cambio al codigo del programa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
