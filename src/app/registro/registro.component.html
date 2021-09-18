@@ -19,16 +19,8 @@
         <input type="text" [(ngModel)]="user.pass">
       </p>
     </div>
-    <!--
-    <div>
-        <p class="lead">
-          <span>Usuarios registrados: {{usersSize}}</span>
-        </p>
-    </div>
-    -->
     <div>
       <button type="button" class="btn btn-primary" (click)="saveNewUser()">Guardar</button>
       <a href="" [routerLink]="['/']">Login</a>
     </div>
   </div>
-  <router-outlet></router-outlet>

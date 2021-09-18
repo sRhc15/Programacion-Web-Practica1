@@ -1,9 +1,9 @@
-p{
+.container{
     background-color: darkseagreen;
     color:khaki;
     font-family:Tahoma;
-    font-size: 20px;
+    font-size: small;
     text-align: justify;
-    padding: 850px 10px;
+    padding: 20px 70px;
     padding-bottom: 55px;
 }

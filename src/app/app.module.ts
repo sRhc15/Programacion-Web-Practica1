@@ -12,9 +12,10 @@ import { HeaderComponent } from './header/header.component';
 import { RegistroComponent } from './registro/registro.component';
 import { HomeComponent } from './home/home.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 const appRoutes: Routes =[
-  {path:'', component: LoginComponent },
+  {path:'', component: PrincipalComponent },
   {path:'registro', component: RegistroComponent },
   {path:'inicio/:name', component: InicioComponent }
 ]
@@ -29,7 +30,8 @@ const appRoutes: Routes =[
     HeaderComponent,
     RegistroComponent,
     HomeComponent,
-    InicioComponent
+    InicioComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,

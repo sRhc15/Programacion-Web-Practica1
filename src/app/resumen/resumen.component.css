@@ -1,12 +1,12 @@
-p{
-    color:rebeccapurple;
-    text-align: right;
+.container{
+    background-color:darkseagreen;
+    color:khaki;
     font-family:Tahoma;
-    font-size:17px;
-    background-color:moccasin;
-    padding:850px 10px;
-    padding-bottom: 55px;
     
+    text-align: justify;
+    padding: 300px 70px;
+    padding-bottom: 55px;
+
 }
 h4{
     text-align: right;

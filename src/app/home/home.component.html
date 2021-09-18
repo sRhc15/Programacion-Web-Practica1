@@ -1,2 +1,16 @@
-<p>INICIO DE PAGINA</p>
-<a href="" routerLink="/">Cerrar Sesion</a>
+<div class="jumbotron">  
+    <div class="contenedor">
+        <div class="titulo">
+            <h2>Mis Mensajes</h2>
+            <h4>Buscar</h4>
+            <input type="text"> <button type="button" class="btn btn-primary">Buscar</button>
+        </div>
+    </div>
+    <div class="contenedor" *ngFor="let item of menuLista">
+        <div class="msg">
+            <h4>@usuario{{item.id}}</h4>
+            <p>{{item.text}}</p>
+        </div>
+    </div>  
+    <a href="" routerLink="/">Cerrar Sesion</a>
+</div>  
